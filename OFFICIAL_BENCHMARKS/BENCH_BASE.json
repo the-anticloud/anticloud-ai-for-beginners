@@ -1,0 +1,782 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "AI_FOR_BEGINNERS",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\AUTOMOTIVE\\AI_FOR_BEGINNERS\\UPSTREAM_CLONE",
+    "git": {
+      "head": "392d0df1b2647cbee104942390551f1ed9e072c8",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "branch": "main",
+      "committed_at": "2026-09-04T16:24:51+01:00"
+    }
+  },
+  "metrics": {
+    "files_total": 13573,
+    "source_files_scanned": 16,
+    "lines_of_code": 1128,
+    "languages": {
+      ".webp": 6480,
+      ".md": 3696,
+      ".ipynb": 2969,
+      ".png": 198,
+      ".json": 138,
+      ".jpg": 34,
+      ".py": 9,
+      ".yml": 7,
+      ".txt": 6,
+      ".js": 6,
+      ".gif": 6,
+      ".vue": 4,
+      ".jpeg": 4,
+      "(none)": 3,
+      ".html": 3
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 54,
+    "unique": 28,
+    "by_ecosystem": {
+      "conda": 43,
+      "npm": 11
+    },
+    "list": [
+      {
+        "ecosystem": "conda",
+        "name": "defaults",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- defaults"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipykernel",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- ipykernel"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipython",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- ipython"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipywidgets",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- ipywidgets"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyter",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- jupyter"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "matplotlib",
+        "version": "3.9",
+        "source_file": "environment.yml",
+        "raw": "- matplotlib=3.9"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "numpy",
+        "version": "1.26",
+        "source_file": "environment.yml",
+        "raw": "- numpy=1.26"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- python"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "requests",
+        "version": "2.32",
+        "source_file": "environment.yml",
+        "raw": "- requests=2.32"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scikit-learn",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- scikit-learn"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scipy",
+        "version": "1.13",
+        "source_file": "environment.yml",
+        "raw": "- scipy=1.13"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pip",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- pip"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "setuptools",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- setuptools"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pip",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- pip"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "-r",
+        "version": "",
+        "source_file": "environment.yml",
+        "raw": "- -r"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "defaults",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- defaults"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipykernel",
+        "version": "6.4.1",
+        "source_file": "binder/environment.yml",
+        "raw": "- ipykernel=6.4.1"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipython",
+        "version": "7.27.0",
+        "source_file": "binder/environment.yml",
+        "raw": "- ipython=7.27.0"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "ipywidgets",
+        "version": "7.6.5",
+        "source_file": "binder/environment.yml",
+        "raw": "- ipywidgets=7.6.5"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "jupyter",
+        "version": "1.0.0",
+        "source_file": "binder/environment.yml",
+        "raw": "- jupyter=1.0.0"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "matplotlib",
+        "version": "3.4.2",
+        "source_file": "binder/environment.yml",
+        "raw": "- matplotlib=3.4.2"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "numpy",
+        "version": "1.22.3",
+        "source_file": "binder/environment.yml",
+        "raw": "- numpy=1.22.3"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "python",
+        "version": "3.8.12",
+        "source_file": "binder/environment.yml",
+        "raw": "- python=3.8.12"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "requests",
+        "version": "2.26.0",
+        "source_file": "binder/environment.yml",
+        "raw": "- requests=2.26.0"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scikit-learn",
+        "version": "0.24.2",
+        "source_file": "binder/environment.yml",
+        "raw": "- scikit-learn=0.24.2"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "scipy",
+        "version": "1.6.2",
+        "source_file": "binder/environment.yml",
+        "raw": "- scipy=1.6.2"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pip",
+        "version": "21.0.1",
+        "source_file": "binder/environment.yml",
+        "raw": "- pip=21.0.1"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "conda-forge",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- conda-forge"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "setuptools",
+        "version": "58.0.4",
+        "source_file": "binder/environment.yml",
+        "raw": "- setuptools=58.0.4"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pytorch",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- pytorch"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "pip",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- pip"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "-r",
+        "version": "",
+        "source_file": "binder/environment.yml",
+        "raw": "- -r"
+      },
+      {
+        "ecosystem": "conda",
+        "name": "--default-timeout",
+        "version": "120",
+        "source_file": "binder/environment.yml",
+        "raw": "- --default-timeout=120"
+      },
+      {
+        "ecosystem": "npm",
+        "name": "core-js",
+        "version": "^3.6.5",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue",
+        "version": "^2.6.11",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue-i18n",
+        "version": "^8.28.2",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue-router",
+        "version": "^3.4.9",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vue/cli-plugin-babel",
+        "version": "~5.0.8",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vue/cli-plugin-eslint",
+        "version": "~5.0.8",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vue/cli-service",
+        "version": "~5.0.8",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-eslint",
+        "version": "^10.1.0",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^9.33.0",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-vue",
+        "version": "^10.4.0",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vue-template-compiler",
+        "version": "^2.6.11",
+        "source_file": "etc/quiz-app/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 2,
+    "files_with_findings": 2,
+    "severity": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "lessons/4-ComputerVision/07-ConvNets/pytorchcv.py",
+            "line": 45,
+            "cwe": "CWE-95",
+            "snippet": "net.eval()"
+          },
+          {
+            "severity": "high",
+            "file": "lessons/4-ComputerVision/08-TransferLearning/pytorchcv.py",
+            "line": 45,
+            "cwe": "CWE-95",
+            "snippet": "net.eval()"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 0,
+        "findings": []
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 0,
+        "findings": []
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 0,
+    "files_with_findings": 0,
+    "severity": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:72b2d1f3-5ca4-5c62-88ea-d66b177c0298",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:00:36Z",
+      "component": {
+        "type": "application",
+        "name": "AI_FOR_BEGINNERS",
+        "version": "392d0df1b264",
+        "bom-ref": "pkg:generic/anticloud/AI_FOR_BEGINNERS@392d0df1b264",
+        "purl": "pkg:generic/anticloud/AI_FOR_BEGINNERS@392d0df1b264",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "392d0df1b2647cbee104942390551f1ed9e072c8"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/microsoft/AI-For-Beginners"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "defaults",
+        "version": "unspecified",
+        "purl": "pkg:generic/defaults",
+        "bom-ref": "conda/defaults@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "conda-forge",
+        "version": "unspecified",
+        "purl": "pkg:generic/conda-forge",
+        "bom-ref": "conda/conda-forge@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipykernel",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipykernel",
+        "bom-ref": "conda/ipykernel@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipython",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipython",
+        "bom-ref": "conda/ipython@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "ipywidgets",
+        "version": "unspecified",
+        "purl": "pkg:generic/ipywidgets",
+        "bom-ref": "conda/ipywidgets@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "jupyter",
+        "version": "unspecified",
+        "purl": "pkg:generic/jupyter",
+        "bom-ref": "conda/jupyter@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "matplotlib",
+        "version": "3.9",
+        "purl": "pkg:generic/matplotlib@3.9",
+        "bom-ref": "conda/matplotlib@3.9"
+      },
+      {
+        "type": "library",
+        "name": "numpy",
+        "version": "1.26",
+        "purl": "pkg:generic/numpy@1.26",
+        "bom-ref": "conda/numpy@1.26"
+      },
+      {
+        "type": "library",
+        "name": "python",
+        "version": "unspecified",
+        "purl": "pkg:generic/python",
+        "bom-ref": "conda/python@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "requests",
+        "version": "2.32",
+        "purl": "pkg:generic/requests@2.32",
+        "bom-ref": "conda/requests@2.32"
+      },
+      {
+        "type": "library",
+        "name": "scikit-learn",
+        "version": "unspecified",
+        "purl": "pkg:generic/scikit-learn",
+        "bom-ref": "conda/scikit-learn@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "scipy",
+        "version": "1.13",
+        "purl": "pkg:generic/scipy@1.13",
+        "bom-ref": "conda/scipy@1.13"
+      },
+      {
+        "type": "library",
+        "name": "pip",
+        "version": "unspecified",
+        "purl": "pkg:generic/pip",
+        "bom-ref": "conda/pip@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "setuptools",
+        "version": "unspecified",
+        "purl": "pkg:generic/setuptools",
+        "bom-ref": "conda/setuptools@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "pytorch",
+        "version": "unspecified",
+        "purl": "pkg:generic/pytorch",
+        "bom-ref": "conda/pytorch@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "-r",
+        "version": "unspecified",
+        "purl": "pkg:generic/-r",
+        "bom-ref": "conda/-r@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "--default-timeout",
+        "version": "120",
+        "purl": "pkg:generic/--default-timeout@120",
+        "bom-ref": "conda/--default-timeout@120"
+      },
+      {
+        "type": "library",
+        "name": "core-js",
+        "version": "^3.6.5",
+        "purl": "pkg:npm/core-js@^3.6.5",
+        "bom-ref": "npm/core-js@^3.6.5"
+      },
+      {
+        "type": "library",
+        "name": "vue",
+        "version": "^2.6.11",
+        "purl": "pkg:npm/vue@^2.6.11",
+        "bom-ref": "npm/vue@^2.6.11"
+      },
+      {
+        "type": "library",
+        "name": "vue-i18n",
+        "version": "^8.28.2",
+        "purl": "pkg:npm/vue-i18n@^8.28.2",
+        "bom-ref": "npm/vue-i18n@^8.28.2"
+      },
+      {
+        "type": "library",
+        "name": "vue-router",
+        "version": "^3.4.9",
+        "purl": "pkg:npm/vue-router@^3.4.9",
+        "bom-ref": "npm/vue-router@^3.4.9"
+      },
+      {
+        "type": "library",
+        "name": "@vue/cli-plugin-babel",
+        "version": "~5.0.8",
+        "purl": "pkg:npm/@vue/cli-plugin-babel@~5.0.8",
+        "bom-ref": "npm/@vue/cli-plugin-babel@~5.0.8"
+      },
+      {
+        "type": "library",
+        "name": "@vue/cli-plugin-eslint",
+        "version": "~5.0.8",
+        "purl": "pkg:npm/@vue/cli-plugin-eslint@~5.0.8",
+        "bom-ref": "npm/@vue/cli-plugin-eslint@~5.0.8"
+      },
+      {
+        "type": "library",
+        "name": "@vue/cli-service",
+        "version": "~5.0.8",
+        "purl": "pkg:npm/@vue/cli-service@~5.0.8",
+        "bom-ref": "npm/@vue/cli-service@~5.0.8"
+      },
+      {
+        "type": "library",
+        "name": "babel-eslint",
+        "version": "^10.1.0",
+        "purl": "pkg:npm/babel-eslint@^10.1.0",
+        "bom-ref": "npm/babel-eslint@^10.1.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "^9.33.0",
+        "purl": "pkg:npm/eslint@^9.33.0",
+        "bom-ref": "npm/eslint@^9.33.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-vue",
+        "version": "^10.4.0",
+        "purl": "pkg:npm/eslint-plugin-vue@^10.4.0",
+        "bom-ref": "npm/eslint-plugin-vue@^10.4.0"
+      },
+      {
+        "type": "library",
+        "name": "vue-template-compiler",
+        "version": "^2.6.11",
+        "purl": "pkg:npm/vue-template-compiler@^2.6.11",
+        "bom-ref": "npm/vue-template-compiler@^2.6.11"
+      }
+    ]
+  },
+  "elapsed_seconds": 392.87
+}
